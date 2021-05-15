@@ -182,9 +182,10 @@ int main(int argc, char **argv)
 	fsInitialize();
 	consoleInit(NULL);
 
+	printf("Current serial : ");
 	printSerial();
 
-	printf("Warning: This software was written by a not nice person.\n\n");
+	printf("WARNING: You should always have a NAND backup.\n\n");
 	
 	mainMenu();
 
